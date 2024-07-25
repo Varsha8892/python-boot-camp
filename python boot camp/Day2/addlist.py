@@ -1,0 +1,11 @@
+my_list=list(map(int,input().split()))
+my_list=[1,2,3,4]
+my_list.append(9999)
+my_list.insert(8000,999)
+print(len(my_list))
+my_list.pop(77)
+my_list2=[5,6,7,8]
+new_list=my_list=my_list2
+new_list.pop()
+print(*new_list)
+print(*my_list)
